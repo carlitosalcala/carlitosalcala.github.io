@@ -68,7 +68,7 @@ sap.ui.define([
 				mode: "json"  // get it in JSON format 
 			};
 		//	var sUrl = "/OpenWeather/data/2.5/forecast/daily";
-			var sUrl = "http://api.openweathermap.org/data/2.5/forecast/daily";
+			var sUrl = "https://api.openweathermap.org/data/2.5/forecast/daily";
 			oView.setBusy(true);
 			
 			var self = this;
