@@ -67,8 +67,8 @@ sap.ui.define([
 				cnt: 16,  // get weather for the next 16 days
 				mode: "json"  // get it in JSON format 
 			};
-		//	var sUrl = "/OpenWeather/data/2.5/forecast/daily";
-			var sUrl = "https://crossorigin.me/http://api.openweathermap.org/data/2.5/forecast/daily";
+		//	var sUrl = "/OpenWeather/data/2.5/forecast/daily"; https://cors-anywhere.herokuapp.com/
+			var sUrl = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/forecast/daily";
 			// https://www.reddit.com/r/FreeCodeCamp/comments/4ioycb/how_to_solve_mixed_content_issue/
 			oView.setBusy(true);
 			
